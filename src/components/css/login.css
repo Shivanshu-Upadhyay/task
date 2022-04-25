@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-image: url(https://picsum.photos/1200/1300);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+input {
+  width: 16rem;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.login {
+  padding: 15px 80px;
+  background-color: red;
+  font-size: 22px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.secondBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+ 
+}
+a{
+    text-decoration: none;
+}
+.icon {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  color: rgb(14, 1, 1);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: none;
+  border-bottom: 2px solid black;
+}
